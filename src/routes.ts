@@ -4,7 +4,8 @@ import knex from './database/connection';
 import PointsController from './controllers/PointsController';
 import ItemsController from './controllers/ItemsController';
 
-// index, show, create, update, delete
+// index (para listar vários), 
+//show (para listar um), create, update, delete
 
 const routes = express.Router();
 
